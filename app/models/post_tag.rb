@@ -1,2 +1,3 @@
-class PostTag < ApplicationRecord
-end
+class Author < ApplicationRecord
+    has_many :posts
+  end
